@@ -1,0 +1,87 @@
+237-o que é o ECMAScript?
+    ->tem por objetivo, tornar o JS uma linguagem de padrão industrial
+    ->ECMAScript é uma especificação, descreve como o JS deve ser implementado nos browser 
+    
+238-como utilizar o ECMAScript 215 (ES6) em suas páginas?
+    ->finalizado 
+
+239-babel-introdução e configuração 
+    ->o babel atualmente não é mais necessário, pois os browsers atualmente já suportam nativamente as features do ES6 
+    ->o babel funciona como um conversor de ES6 para ES5
+
+240-configurando hightlight de sintaxe do ES66 no sublime text 
+    ->finalizado 
+
+241-operadores de declaração de variáveis Var e Let 
+    ->var = funciona em escopo global, se declarada fora de função e escopo, esta disponivel para todos, se declarada dentro de função ou bloco, fica disponivel paenas lá dentro
+    ->let = preserva o escopo onde a variável foi criada. Se foi criada dentro de uma função ou escopo, tem q ser chamado lá também
+
+242-análise de contexro 1 - usando var e let 
+    ->se declarada duas var com mesmo nome, na segunda vez declaração, mesmo dentro de bloco, ela irá sobrescrever 
+
+243-análise de contexro 2 - usando var e let 
+    ->com o let isso não acontece, neste caso, ficaria como se fossem duas variáveis 
+    ->duas variáveis var e let, com o mesmo nome, geram conflitos 
+
+244-operador de declaração de variáveis const 
+    ->const cria constantes, com valores que não podem ser reatribuidos
+    ->para boa prática, declarando const, se usa letras maiúsculas 
+    ->é possivel declarar duas const com mesmo nome em escopos diferentes, fica como se fosse duas variaveis diferentes 
+    
+245-template string
+    ->é semelhante ao recurso de concatenação, porem dentro de uma string, abre janelas que podem ser processadas pelo processador do JS
+    ->possibilita a interpolação de codificação com strings 
+    ->usa as crases em vez de aspas para interpolar 
+    ->variáveis e métodos sempre são envolvidos com ${  }
+
+246-funções-parâmetros default 
+    ->possibilita pré configurar valores default para uma a função, caso, quando a função for chamada, os parametros não sejam passados 
+
+247-funções - arrow function 
+    ->declarando uma função anônima atribuida a uma variável 
+    ->declarando uma arrow function, existem varias maneiras de declarar para evitar a verbosidade do código
+
+248-introdução a orientação a objetos - considerações preliminares 
+    ->paradigmas de programação (paradigma = é um padrão, uma conduta, a forma de fazer algo)
+        ->procedural/estruturado/imperativo * 
+        ->funcional 
+        ->lógico 
+        ->orientado a objetos *
+        ->concorrente 
+        ->reativo 
+
+249-introdução a orientação a objetos
+    ->paradigma procedural 
+        ->chamada de procedimentos(procedurais) para manipulação de dados (modo comum)
+    ->paradigma de orientação a objetos 
+        ->estruturas de dados com cpomportamentos 
+
+250-OO - pilar da abstração 
+    ->abstração 
+        ->é compreender as coisas do mundo real, e trazer essas coisas para dentro do sistema 
+            ->entidade 
+                ->é compreensão que um objeto do mundo real deve passar para dentro da aplicação(a classe)
+            ->identidade 
+                ->é aplicado quando a entidade é referenciada para a criação de um novo objeto (objeto criado a partir do 'new', recebendo atributos e metodos da classe)
+            ->características
+                ->são os atributos recebidos das entidades (classes) para o new objeto
+            ->ações 
+                ->são os métodos utilizados pelos objetos, herdados da classe principal 
+
+251-OO - reflexão - da abstraão a entidade 
+        ->feito o mesmo código usando o paradigma procedural e o paradigma de orientação a objeto
+
+252-OO - pilar do encapsulamento 
+        ->seguro 
+            ->cria uma camada de segurança
+            ->objeto tem condições oque dentro dele, está disponivel para o sistema
+            ->utiliza os sistemas de proteção do tipo protect, private
+        ->reutilizável
+            ->disponivel para uso na herança
+
+252-OO - pilar da herança 
+        ->proporciona o código de ser reutilizavel, ficando menos redundante 
+        ->facilita a manutenção posterior 
+        
+            
+
